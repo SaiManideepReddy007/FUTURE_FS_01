@@ -1,70 +1,162 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# 🌐 Personal Professional Portfolio Website
 
-## Available Scripts
+**Task 1 — Full Stack Web Development Internship**  
+**Intern:** Sai Manideep Reddy Gujjula  
+**Company:** Future Interns  
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🔗 Live Demo
+> 🔗 https://saimanideepreddy007.github.io/FUTURE_FS_01/
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 📌 About The Project
+A personal professional portfolio website built to showcase my skills,
+projects, education, internships, and achievements. Designed with a
+modern dark/light theme, floating bubble animations, typing effects,
+and smooth scroll transitions.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## ✅ Features
+- 🌙 Dark / Light theme toggle
+- ✍️ Typing animation in Hero section
+- 💫 Floating bubble background animation
+- 📱 Fully responsive (mobile + desktop)
+- 🗂️ Project modal popup with case study
+- 🎓 Education timeline section
+- 💼 Internship experience section
+- 📜 Certifications & Achievements sections
+- 📬 Contact form with email integration
+- ⬆️ Scroll to top button
+- 🔍 SEO-friendly structure
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🛠️ Tech Stack
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+| Layer      | Technology                  |
+|------------|-----------------------------|
+| Frontend   | React.js, HTML5, CSS3       |
+| Styling    | Custom CSS with Variables   |
+| Icons      | React Icons                 |
+| Theme      | Context API (Dark/Light)    |
+| Hosting    | GitHub Pages                |
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 📁 Project Structure
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```
+FUTURE_FS_01/
+├── public/
+│   ├── index.html
+│   └── resume.pdf
+├── src/
+│   ├── components/
+│   │   ├── Navbar.jsx
+│   │   ├── Hero.jsx
+│   │   ├── About.jsx
+│   │   ├── Skills.jsx
+│   │   ├── Education.jsx
+│   │   ├── Experience.jsx
+│   │   ├── Projects.jsx
+│   │   ├── Certifications.jsx
+│   │   ├── Achievements.jsx
+│   │   ├── Contact.jsx
+│   │   └── Footer.jsx
+│   ├── context/
+│   │   └── ThemeContext.jsx
+│   ├── App.js
+│   └── App.css
+├── package.json
+└── README.md
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## ⚙️ Setup & Run Locally
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Prerequisites
+- Node.js (v16 or above)
+- npm
 
-## Learn More
+### Installation Steps
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+**1. Clone the repository**
+```bash
+git clone https://github.com/SaiManideepReddy007/FUTURE_FS_01.git
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+**2. Navigate to project folder**
+```bash
+cd FUTURE_FS_01
+```
 
-### Code Splitting
+**3. Install dependencies**
+```bash
+npm install
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+**4. Start development server**
+```bash
+npm start
+```
 
-### Analyzing the Bundle Size
+**5. Open in browser**
+```
+http://localhost:3000
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+## 🚀 Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+This project is deployed using **GitHub Pages**.
 
-### Advanced Configuration
+**Install gh-pages:**
+```bash
+npm install gh-pages --save-dev
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+**Deploy:**
+```bash
+npm run deploy
+```
 
-### Deployment
+**Live at:**  
+🔗 https://saimanideepreddy007.github.io/FUTURE_FS_01/
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+---
 
-### `npm run build` fails to minify
+## 📂 Sections Included
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+| Section        | Description                              |
+|----------------|------------------------------------------|
+| 🏠 Hero         | Name, typing animation, resume download  |
+| 👤 About        | Bio, stats (Projects, Internships, CGPA) |
+| 💻 Skills       | Tech stack with icons                    |
+| 🎓 Education    | College, intermediate, school timeline   |
+| 💼 Experience   | Internships timeline                     |
+| 🗂️ Projects     | Project cards with modal popup           |
+| 📜 Certifications | Verified course certificates           |
+| 🏆 Achievements | Hackathons and coding events             |
+| 📬 Contact      | Email form + social links                |
+| 🔗 Footer       | Quick links + social icons               |
+
+---
+
+## 📬 Contact
+
+- **Email:** gujjulasaimanideepreddy@gmail.com  
+- **Phone:** +91-8309596136  
+- **GitHub:** [SaiManideepReddy007](https://github.com/SaiManideepReddy007)  
+- **LinkedIn:** [sai-manideep-reddy-gujjula](https://www.linkedin.com/in/sai-manideep-reddy-gujjula-214390341/)  
+- **Location:** Hyderabad, India  
+
+---
+
+*Built with ❤️ using React.js — Future Interns Full Stack Web Development — Task 1*
+
