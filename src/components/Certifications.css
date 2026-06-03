@@ -1,0 +1,23 @@
+.certifications { background: transparent; }
+
+.cert-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  gap: 20px;
+}
+.cert-card {
+  display: flex; flex-direction: column; gap: 12px;
+  animation: fadeInScale 0.5s ease both;
+}
+.cert-top {
+  display: flex; align-items: center;
+  justify-content: space-between;
+}
+.cert-icon-wrap {
+  width: 50px; height: 50px; border-radius: 12px;
+  display: flex; align-items: center; justify-content: center;
+}
+.cert-emoji  { font-size: 1.6rem; }
+.cert-title  { font-size: 1rem; font-weight: 700; color: var(--text-primary); }
+.cert-issuer { font-size: 0.84rem; color: var(--text-secondary); }
+.cert-status { font-size: 0.78rem; font-weight: 700; }

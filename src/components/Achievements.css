@@ -1,0 +1,13 @@
+.achievements { background: transparent; }
+
+.ach-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 24px;
+}
+.ach-card { display: flex; flex-direction: column; gap: 12px; animation: fadeInScale 0.5s ease both; }
+.ach-top  { display: flex; align-items: center; justify-content: space-between; }
+.ach-emoji { font-size: 2rem; }
+.ach-title { font-size: 1.1rem; font-weight: 700; color: var(--text-primary); }
+.ach-org   { font-size: 0.84rem; font-weight: 600; }
+.ach-desc  { font-size: 0.9rem; color: var(--text-secondary); line-height: 1.6; }

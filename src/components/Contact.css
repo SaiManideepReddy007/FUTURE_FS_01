@@ -1,0 +1,47 @@
+.contact { background: transparent; }
+
+.contact-grid { display: grid; grid-template-columns: 1fr 1.3fr; gap: 60px; align-items: start; }
+
+.contact-info-title { font-size: 1.3rem; font-weight: 700; color: var(--text-primary); margin-bottom: 14px; }
+.contact-info-text  { font-size: 0.95rem; color: var(--text-secondary); line-height: 1.8; margin-bottom: 28px; }
+
+.contact-links { display: flex; flex-direction: column; gap: 16px; }
+.contact-item  { display: flex; align-items: center; gap: 14px; }
+.contact-icon  {
+  width: 40px; height: 40px; border-radius: 10px;
+  background: var(--bg-card); border: 1px solid var(--border-color);
+  display: flex; align-items: center; justify-content: center;
+  color: var(--accent-blue); font-size: 1rem; flex-shrink: 0;
+}
+.contact-label { font-size: 0.7rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 1px; }
+.contact-value { font-size: 0.87rem; color: var(--text-secondary); text-decoration: none; transition: color 0.3s; }
+a.contact-value:hover { color: var(--accent-blue); }
+
+.contact-form { display: flex; flex-direction: column; gap: 16px; }
+.form-row     { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+.form-group   { display: flex; flex-direction: column; gap: 6px; }
+.form-group label { font-size: 0.78rem; font-weight: 600; color: var(--text-secondary); text-transform: uppercase; letter-spacing: 0.5px; }
+.form-group input,
+.form-group textarea {
+  background: rgba(255,255,255,0.04);
+  border: 1px solid var(--border-color); border-radius: 10px;
+  padding: 12px 14px; color: var(--text-primary);
+  font-size: 0.92rem; font-family: inherit;
+  outline: none; transition: border-color 0.3s; resize: vertical;
+}
+.form-group input:focus,
+.form-group textarea:focus {
+  border-color: var(--accent-blue);
+  box-shadow: 0 0 0 3px var(--accent-glow);
+}
+.form-group input::placeholder,
+.form-group textarea::placeholder { color: var(--text-muted); }
+.sent-msg {
+  background: rgba(79,172,254,0.1); border: 1px solid var(--border-accent);
+  border-radius: 10px; padding: 12px; font-size: 0.9rem;
+  color: var(--accent-blue); text-align: center;
+}
+@media (max-width: 768px) {
+  .contact-grid { grid-template-columns: 1fr; gap: 40px; }
+  .form-row { grid-template-columns: 1fr; }
+}
